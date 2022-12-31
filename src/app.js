@@ -25,6 +25,7 @@ page(setUserMiddleware(getUserData))
 page(renderMiddleware(main, header));
 
 page('/home', showHomeView);
+page('/', '/home')
 page('/create', hasUser(), showCreateView);
 page('/catalog', showLoaderView, showCatalogView);
 page('/my-catalog', showLoaderView, showMyCatalogView);
