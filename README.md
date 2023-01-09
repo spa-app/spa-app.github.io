@@ -2,4 +2,4 @@
 
 Single Spa Appication
   - basic CRUD operations
-  - user Baas - Back4app
+  - use Baas - Back4app
